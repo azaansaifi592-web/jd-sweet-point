@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Javid Confectionor Sweets Point</title>
+
+<style>
+body{
+  margin:0;
+  font-family:Segoe UI,Arial;
+  background:#fff5eb;
+}
+header{
+  background:linear-gradient(45deg,#8b0000,#b22222);
+  color:white;
+  text-align:center;
+  padding:25px 10px;
+}
+header h1{margin:0;font-size:26px;}
+header p{margin:5px 0 0;}
+
+.section{
+  padding:20px;
+}
+.section h2{
+  text-align:center;
+  color:#8b0000;
+}
+
+.products{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:15px;
+  margin-top:20px;
+}
+
+.card{
+  background:white;
+  border-radius:12px;
+  padding:15px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+  text-align:center;
+}
+.card h3{margin:10px 0;color:#333;}
+.card p{font-size:14px;color:#666;}
+
+.order-btn{
+  display:inline-block;
+  background:#25d366;
+  color:white;
+  padding:10px 18px;
+  border-radius:25px;
+  text-decoration:none;
+  font-weight:bold;
+  margin-top:10px;
+}
+
+.about{
+  background:white;
+  border-radius:12px;
+  padding:20px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+footer{
+  background:#222;
+  color:white;
+  text-align:center;
+  padding:15px;
+  font-size:14px;
+}
+
+.fixed-whatsapp{
+  position:fixed;
+  right:15px;
+  bottom:15px;
+  background:#25d366;
+  color:white;
+  padding:15px;
+  border-radius:50%;
+  text-decoration:none;
+  font-size:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>🍬 Javid Confectionor Sweets Point 🍬</h1>
+  <p>Fresh • Pure • Desi Mithai</p>
+</header>
+
+<div class="section">
+<h2>Popular Mithai</h2>
+
+<div class="products">
+
+<div class="card">
+<h3>Barfi</h3>
+<p>Fresh & soft barfi made daily</p>
+<a class="order-btn" href="https://wa.me/919105928591?text=I%20want%20to%20order%20Barfi">Order on WhatsApp</a>
+</div>
+
+<div class="card">
+<h3>Chena Jalebi</h3>
+<p>Soft, juicy & sweet chena jalebi</p>
+<a class="order-btn" href="https://wa.me/919105928591?text=I%20want%20to%20order%20Chena%20Jalebi">Order on WhatsApp</a>
+</div>
+
+<div class="card">
+<h3>Rasgulla</h3>
+<p>Spongy & delicious rasgulla</p>
+<a class="order-btn" href="https://wa.me/919105928591?text=I%20want%20to%20order%20Rasgulla">Order on WhatsApp</a>
+</div>
+
+<div class="card">
+<h3>More Mithai</h3>
+<p>Many more sweets available</p>
+<a class="order-btn" href="https://wa.me/919105928591?text=Please%20send%20me%20full%20mithai%20list">Ask on WhatsApp</a>
+</div>
+
+</div>
+</div>
+
+<div class="section">
+<h2>About Us</h2>
+<div class="about">
+<p>
+We serve fresh and hygienic Indian sweets made with pure ingredients.
+Perfect for festivals, functions and daily cravings.
+</p>
+<p><b>📞 Phone / WhatsApp:</b> 9105928591</p>
+</div>
+</div>
+
+<footer>
+© 2026 Javid Confectionor Sweets Point  
+</footer>
+
+<a class="fixed-whatsapp" href="https://wa.me/919105928591">💬</a>
+
+</body>
+</html>
